@@ -1,0 +1,354 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fuente */
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* LE EMPIEZO A DAR LOS COLORES DE FONDO A CADA CLASE */
+
+.ordenamiento-navbar {
+    background-color: #100F0F;
+}
+
+.color {
+    background-color: #c6c6c6;
+}
+
+.pie-pagina {
+    background-color: #100F0F;
+}
+
+/* EMPIEZO A DAR ESTILOS */
+
+.ordenamiento-navbar {
+    background-color: black;
+    height: 70px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-logo {
+    width: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 70px;
+    width: 70px;
+}
+
+.navbar-conteiner {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: rgb(255, 196, 0);
+}
+
+.banner-conteiner {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.banner-conteiner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.frase-medio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nosotros {
+    text-align: center;
+}
+
+.titulos {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.texto {
+    color: white;
+    white-space: pre-line;
+    background-color: #100F0F;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.titulo-ubi {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* footer */
+
+.pie-pagina {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    height: 0%;
+}
+
+.secciones-pie-pagina {
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.elemento-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.elemento-footer h4 {
+    font-size: 30px;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 18px;
+}
+
+/* LOGIN */
+
+button:active {
+    transition: transform 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.botones {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.boton-login {
+    background-color: rgb(57, 171, 57);
+    font-size: 20px;
+    border: 3px solid black;
+    width: 130px;
+    height: 40px;
+}
+
+.boton-reset {
+    background-color: rgb(243, 243, 78);
+    font-size: 20px;
+    border: 3px solid black;
+    width: 130px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.form {
+    color: white;
+    white-space: pre-line;
+    background-color: #100F0F;
+    width: 20%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.mb-3 {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.form-control {
+    font-size: 25px;
+}
+
+/* CORTINAS Y ACCESORIOS */
+.cortinas {
+    background-color: black;
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    /* alinia el texto en el centro */
+}
+
+.padre {
+    display: flex;
+    /* flex-direction: row; */
+    /* acomoda por fila, no tiene sentido ya que l hace ppor default */
+    /* flex-direction: column; */
+    /* acomoda por columna */
+    /*  flex-direction: column-reverse; */
+    /* invierte el orden */
+    flex-wrap: wrap;
+    /* hace que no aparezca el scroll para el costado, lo acomoda */
+    justify-content: center;
+    /* centro los contenidos */
+}
+
+.boton-comprar {
+    background-color: rgb(57, 171, 57);
+    font-size: 20px;
+    border: 3px solid black;
+    width: 130px;
+    height: 40px;
+}
+
+/* COTIZACION */
+
+.contenedor-tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.tabla {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.boton-mostrar {
+    background-color: rgb(215, 220, 52);
+    font-size: 20px;
+    border: 3px solid black;
+    width: 200px;
+    height: 40px;
+}
+
+.bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/*  */
+
+
+#card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centrar horizontalmente */
+    margin-top: 20px;
+    /* Ajuste de espacio superior */
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    /* Espacio entre filas */
+}
+
+.card {
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #333;
+    /* Fondo oscuro para tarjetas */
+    color: white;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.select-button {
+    background-color: #4CAF50;
+    /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    /* Ajuste de tamaño */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    /* Ajuste de tamaño de texto */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}

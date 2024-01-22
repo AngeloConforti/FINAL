@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRARSE</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body class="color">
+    <header class="ordenamiento-navbar">
+        <!-- poner el logo  -->
+        <div class="conteiner-logo">
+            <div class="logo">
+                <a href="./index.html"><img src="./assets/img/logo-estilo-relax-modificado.jpg" alt="Logo de Negocio"></a>
+            </div>
+        </div>
+        <h1  style="color: white;">M&J</h1>
+        <div class="navbar-conteiner">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="./login.html">LOGIN</a></li>
+                    <li><a href="./register.html">REGISTER</a></li>
+                    <li><a href="./cortinas.html">CORTINAS</a></li>
+                    <li><a href="./accesorios.html">ACCESORIOS</a></li>
+                    <li><a href="./colores.html">COLORES</a></li>
+                    <li><a href="./cotizacion.html">COTIZACION</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="titulos">
+                <h2>REGISTRARSE</h2>
+            </div>
+            <div class="form">
+                <form id="registroFrom">
+                    <div class="mb-3">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required> <br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email-reg" class="form-label">Email</label> <br>
+                        <input type="email" class="form-control" id="email-reg" name="email-reg" placeholder="name@gmail.com" required> <br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tel" class="form-label">Telefono</label> <br>
+                        <input type="tel" class="form-control" id="tel" name="tel" placeholder="2604001122" required> <br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="provincia" class="form-label">Provincia</label> <br>
+                        <input type="text" class="form-control" id="provincia" name="provincia" placeholder="Mendoza" required> <br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ciudad" class="form-label">Ciudad</label> <br>
+                        <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="San rafael" required> <br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="calle" class="form-label">Calle</label> <br>
+                        <input type="text" class="form-control" id="calle" name="calle" placeholder="Los sauces 0000" required> <br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contraseña-reg" class="form-label">Contraseña</label><br>
+                        <input type="password" class="form-control" id="contraseña-reg" name="contraseña-reg" placeholder="123456" required><br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirm-pass" class="form-label"> Confirmas Constraseña</label> <br>
+                        <input type="password" class="form-control" id="confirm-pass" name="confirm-pass" placeholder="123456" required> <br>
+                    </div>
+                    <div class="botones">
+                        <button onclick="registrarUsuario()" type="submit" class="boton-login">Enviar</button>
+                        <button type="reset" class="boton-reset">Borrar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <div class="secciones-pie-pagina">
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <div>
+                    <h2 class="titulo-ubi">
+                        UBICACION
+                    </h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4885908367746!2d-68.32720936488484!3d-34.617091327769785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967907f913ace825%3A0x4b8ed5be0bd768ba!2sM%20y%20J%20Cortinados!5e0!3m2!1ses-419!2sar!4v1700670961568!5m2!1ses-419!2sar" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="elemento-footer">
+                <h2 class="texto-footer">CONTACTO</h2>
+                <p class="texto-footer">Numero</p>
+                <p class="texto-footer">-----------</p>
+                <p class="texto-footer">Email</p>
+                <p class="texto-footer">-----------</p>
+                <p class="texto-footer">Direccion</p>
+                <p class="texto-footer">-----------</p>
+                <p class="texto-footer">Instagram</p>
+                <p class="texto-footer">-----------</p>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; padding: 1.5%;">
+            <p style="color: white; font-size: 15px;">© 2024 M&J cortinados Argentina</p>
+        </div>
+    </footer>
+    <script src="../js/Funciones.js"></script>
+</body>
+</html>
